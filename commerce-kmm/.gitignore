@@ -1,0 +1,28 @@
+# macOS
+.DS_Store
+
+# Node
+node_modules
+dist
+.env
+
+# Gradle / Android
+.gradle
+/build
+/local.properties
+
+# Xcode
+*.xcworkspace
+xcuserdata
+DerivedData
+
+# KMM / IntelliJ
+.idea
+*.iml
+
+# CocoaPods
+Pods
+Podfile.lock
+
+# Docker
+docker-compose.override.yml

@@ -10,7 +10,7 @@ Pod::Spec.new do |spec|
     spec.summary                  = 'KMM shared module for ecommerce functionality'
     spec.description              = 'Kotlin Multiplatform shared business logic for ecommerce application including networking, data models, and business rules'
     // Update the framework path
-    spec.vendored_frameworks      = 'shared/KMMEcomProject/shared/build/cocoapods/framework/shared.framework'
+    spec.vendored_frameworks      = 'commerce-kmm/shared/KMMEcomProject/shared/build/cocoapods/framework/shared.framework'
     spec.libraries                = 'c++'
     spec.ios.deployment_target    = '13.0'
                 
